@@ -1,0 +1,9 @@
+image: daocloud.io/library/golang:latest
+script:
+        - echo "Ci Begin"
+        - ls
+        - echo "Now Pwd"
+        - pwd
+        - echo "Look Workdir"
+        - cd /usr/src
+        - ls
