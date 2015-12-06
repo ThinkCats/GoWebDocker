@@ -7,4 +7,4 @@ RUN echo 'data'
 RUN ls
 
 EXPOSE 3000
-CMD hello
+CMD ./hello
